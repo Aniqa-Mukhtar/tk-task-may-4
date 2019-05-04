@@ -1,0 +1,20 @@
+
+input{
+    border:2 px solid black;
+    width:250px;
+    height:30px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+button{
+    background-color:rgb(28, 154, 204);
+    color:whitesmoke;
+    margin:5px;
+}
+.form{
+    border:2px solid grey;
+    padding:5px;
+    margin:10px;
+    width:350px;
+    background-color:lightblue;
+}

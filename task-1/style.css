@@ -1,0 +1,81 @@
+.btn-1{
+    color:white;
+    background-color:red;
+    margin:10px;
+    padding:10px;
+    width:120px;
+    
+
+    
+}
+.btn-2{
+  color:white;
+  background-color:lightblue;   
+  margin:10px;
+  padding:10px;
+  width:120px;
+  border-radius:40%;
+}
+.btn-3{
+    color:purple;
+    background-color:white;
+    margin:10px;
+    padding:10px;
+    width:120px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border: 2px solid purple;
+
+
+}
+.btn-4{
+    font-weight:bold;
+    color:blue;
+    background-color:yellow;
+    margin:10px;
+    padding:15px;
+    width:120px;
+    border: 2px solid blue;
+}
+.btn-5{
+    color:white;
+    background-color:orange;
+    margin:10px;
+    padding:10px;
+    width:120px;
+}
+.btn-6{
+    height:40px;
+    width:50px;
+    background-color:white;
+   
+    background-color:white;
+    border: 2px solid rgb(16, 165, 224);
+}
+.btn-1:hover{
+
+    opacity: 0.4;
+    cursor:pointer;
+}
+.btn-2:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
+.btn-3:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
+.btn-4:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
+.btn-5:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
+.btn-6:hover{
+    opacity:0.4;
+    cursor:pointer;
+}
