@@ -1,34 +1,31 @@
-body{
-    background-color:lightgrey;
-}
-
-h1{
+body {
+    background-color: #e2e4e5;
     text-align: center;
-    font-weight: bold;
-    font-family: Georgia;
-    background-color:white;
-    text-shadow:orange;
 }
 
-img{
-    margin-right: 30px;
-   
-
-}
-div{
-    display:inline-block;
-}
-
-section{
-    margin: 50px;
+h1 {
+    background-color: #eceff1;
+    font-size: 3em;
+    text-shadow: 1px 1px 2px red;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px;
 }
 
-img:hover{
-    opacity:0.4;
-    cursor:pointer;
-    
+figcaption {
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 1.5em;
 }
-p{
-    font-style: italic;
-    font-weight: bold;
+
+figure {
+    display: inline-block;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+figure:hover {
+    background-color: #eceff1;
+    color: red;
+    cursor: pointer;
 }

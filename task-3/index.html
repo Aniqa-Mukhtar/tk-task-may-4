@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <title>form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <div class="form">
-    <h2>Full Name</h2>
-    <input type="name" required>
-    <h2>Age</h2>
-    <input type="date" required>
-    <h2>Email</h2>
-    <input type="email" required>
-    <h2>Password</h2>
-    <input type="password" required>
-    <div>
-      <button>Login</button>
-      <a href="#">Forgot your password</a>
-    </div>
-  </div>
-  </body>
+</head>
+
+<body>
+    <form action="logged-in.html">
+
+        <div>
+            <label for="nameinp">Full Name</label>
+            <input id="nameinp" type="text" required>
+        </div>
+        <div>
+            <label for="ageinp">Age</label>
+            <input id="ageinp" type="number" min="10" max="100" required>
+        </div>
+        <div>
+            <label for="emailinp">Email Address</label>
+            <input id="emailinp" type="email" required>
+        </div>
+        <div>
+            <label for="paswdinp">Password</label>
+            <input id="paswdinp" type="password" required>
+        </div>
+        <div class="buttons">
+            <button>Log In</button>
+            <a href="#">Forgot your password?</a>
+        </div>
+    </form>
+</body>
+
 </html>

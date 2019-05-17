@@ -1,81 +1,87 @@
-.btn-1{
-    color:white;
-    background-color:red;
-    margin:10px;
-    padding:10px;
-    width:120px;
-    
+button {
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+    margin: .5em;
+}
 
-    
+.cart-btn {
+    background-color: #c63928;
+    color: white;
+    padding: 1em 3em;
+    border: none;
 }
-.btn-2{
-  color:white;
-  background-color:lightblue;   
-  margin:10px;
-  padding:10px;
-  width:120px;
-  border-radius:40%;
-}
-.btn-3{
-    color:purple;
-    background-color:white;
-    margin:10px;
-    padding:10px;
-    width:120px;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border: 2px solid purple;
 
+.cart-btn:hover {
+    background-color: #ed4c4f;
+    cursor: pointer;
+}
 
+.strt-btn {
+    background-color: #fdd835;
+    color: #2a61fb;
+    border: 2px solid #2a61fb;
+    font-size: 1.5em;
+    font-family: 'Gugi', cursive;
+    padding: 10px 20px;
 }
-.btn-4{
-    font-weight:bold;
-    color:blue;
-    background-color:yellow;
-    margin:10px;
-    padding:15px;
-    width:120px;
-    border: 2px solid blue;
-}
-.btn-5{
-    color:white;
-    background-color:orange;
-    margin:10px;
-    padding:10px;
-    width:120px;
-}
-.btn-6{
-    height:40px;
-    width:50px;
-    background-color:white;
-   
-    background-color:white;
-    border: 2px solid rgb(16, 165, 224);
-}
-.btn-1:hover{
 
-    opacity: 0.4;
-    cursor:pointer;
+.strt-btn:hover {
+    background-color: #2a61fb;
+    color: #fdd835;
+    cursor: pointer;
 }
-.btn-2:hover{
-    opacity:0.4;
-    cursor:pointer;
+
+.login-btn {
+    border-radius: 25px;
+    border: none;
+    background-image: linear-gradient(to right, #59d0d9, #7bd1aa);
+    color: white;
+    padding: 12px 38px;
 }
-.btn-3:hover{
-    opacity:0.4;
-    cursor:pointer;
+
+.login-btn:hover {
+    cursor: pointer;
 }
-.btn-4:hover{
-    opacity:0.4;
-    cursor:pointer;
+
+.signup-btn {
+    color: #6c4eea;
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid #6c4eea;
+    border-radius: 7px;
 }
-.btn-5:hover{
-    opacity:0.4;
-    cursor:pointer;
+
+.signup-btn:hover {
+    color: white;
+    background-color: #6c4eea;
+    cursor: pointer;
 }
-.btn-6:hover{
-    opacity:0.4;
-    cursor:pointer;
+
+.subcribe-btn {
+    background-image: linear-gradient(to top, #f5a732, #fac733);
+    padding: 12px 2em;
+    border: 2px solid #f5a732;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.subcribe-btn:hover {
+    background-color: #f5a732;
+    background-image: none;
+    cursor: pointer;
+}
+
+.twitter-btn {
+    background-color: white;
+    color: #37a1f3;
+    border: 2px solid #37a1f3;
+    padding: 10px 13px;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
+
+.twitter-btn:hover {
+    background-color: #37a1f3;
+    color: white;
 }
